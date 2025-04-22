@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"../node_modules/@spotlightjs/overlay/dist/index-1149361f.js -> ./main-75aabe1c.js\":{\"id\":\"../node_modules/@spotlightjs/overlay/dist/index-1149361f.js -> ./main-75aabe1c.js\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_spotlightjs_overlay_dist_main-75aabe1c_js.js\"]}}"
