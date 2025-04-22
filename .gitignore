@@ -6,3 +6,5 @@ node_modules
 .env.production.local
 .env.development
 .env.test
+/.next
+.DS_Store
