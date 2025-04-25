@@ -5,16 +5,31 @@
       "static/chunks/main-app.js",
       "static/chunks/app/global-error.js"
     ],
-    "/[locale]/(unauth)/page": [
+    "/[locale]/(auth)/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(unauth)/page.js"
+      "static/chunks/app/[locale]/(auth)/dashboard/page.js"
+    ],
+    "/[locale]/(auth)/dashboard/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(auth)/dashboard/layout.js"
+    ],
+    "/[locale]/(auth)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(auth)/layout.js"
     ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
+    ],
+    "/[locale]/(auth)/dashboard/organization-profile/[[...organization-profile]]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(auth)/dashboard/organization-profile/[[...organization-profile]]/page.js"
     ]
   }
 }

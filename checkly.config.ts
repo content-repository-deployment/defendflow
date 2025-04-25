@@ -8,19 +8,19 @@ const sendDefaults = {
 };
 
 // FIXME: Add your production URL
-const productionURL = 'https://react-saas.com';
+const productionURL = 'https://defendflow-test.netlify.app/';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
   // FIXME: add your own email address, Checkly will send you an email notification if a check fails
-  address: 'contact@creativedesignsguru.com',
+  address: 'farhan.gunz@gmail.com',
   ...sendDefaults,
 });
 
 export const config = defineConfig({
   // FIXME: Add your own project name, logical ID, and repository URL
-  projectName: 'SaaS Boilerplate',
-  logicalId: 'saas-boilerplate',
-  repoUrl: 'https://github.com/ixartz/Next-js-Boilerplate',
+  projectName: 'DefendFlow Test Environment',
+  logicalId: 'defendflow-test',
+  repoUrl: 'https://github.com/content-repository-deployment/defendflow',
   checks: {
     locations: ['us-east-1', 'eu-west-1'],
     tags: ['website'],

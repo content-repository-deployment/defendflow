@@ -1,5 +1,8 @@
 # Free and Open Source SaaS Boilerplate with Tailwind CSS and Shadcn UI
 
+[![Crowdin](https://badges.crowdin.net/defendflow-test/localized.svg)](https://crowdin.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d676053-361a-482b-a765-6879db189880/deploy-status)](https://app.netlify.com/sites/defendflow-test/deploys)
+
 <p align="center">
   <a href="https://react-saas.com"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next.js SaaS Template"></a>
 </p>
